@@ -8,10 +8,10 @@
 	<packaging>jar</packaging>
 	<name>CucumberHybridFramework_Place</name>
 	<url>http://maven.apache.org</url>
-	<properties>
+	<!--<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<java.version>11</java.version>
-	</properties>
+	</properties>-->
 	<build>
 		<plugins>
 			<plugin>
