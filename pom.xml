@@ -19,5 +19,39 @@
 <!--	<properties>
    <maven.compiler.source>18</maven.compiler.source>
    <maven.compiler.target>18</maven.compiler.target>
- </properties>-->
+ </properties>--
+<plugins>
+	<plugin>
+            <groupId>org.jacoco</groupId>
+            <artifactId>jacoco-maven-plugin</artifactId>
+            <version>0.8.3</version>
+            <executions>
+               <execution>
+                  <goals>
+                     <goal>prepare-agent</goal>
+                  </goals>
+               </execution>
+               <execution>
+                  <id>jacoco-report</id>
+                  <phase>test</phase>
+                  <goals>
+                     <goal>report</goal>
+                  </goals>
+                  <!-- default target/jscoco/site/* -->
+                  <configuration>
+                     <outputDirectory>target/jacoco-report</outputDirectory>
+                     <dataFile>${project.build.directory}/coverage-reports/jacoco.exec</dataFile>
+                     <rules>
+                        <rule>
+                           <element>CLASS</element>
+                           <excludes>
+                              <exclude>com.asimio.demo.Application</exclude>
+                           </excludes>
+                        </rule>
+                     </rules>
+                  </configuration>
+               </execution>
+            </executions>
+         </plugin>
+</plugins>	
 </project>
