@@ -1,0 +1,7 @@
+com\VRJD\Place\Utilities\Utils.class
+com\VRJD\Place\Runner\TestRunner.class
+com\VRJD\Place\POJO\AddPlace.class
+com\VRJD\Place\POJO\Location.class
+com\VRJD\Place\Utilities\TestDataBuild.class
+com\VRJD\Place\Utilities\APIResources.class
+com\VRJD\Place\StepDefinitions\Steps.class

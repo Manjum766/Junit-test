@@ -1,0 +1,5 @@
+# Created at 2024-04-03T20:28:10.719
+Boot Manifest-JAR contains absolute paths in classpath 'F:\Git_Jenkins\CucumberHybridFramework_Place\target\test-classes'
+Hint: <argLine>-Djdk.net.URLClassPath.disableClassPathURLCheck=true</argLine>
+'other' has different root
+

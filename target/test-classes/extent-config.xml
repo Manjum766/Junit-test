@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extentreports>
+    <configuration>
+        <!-- report theme -->
+        <!-- standard, dark -->
+        <theme>STANDARD</theme>
+    
+        <!-- document encoding -->
+        <!-- defaults to UTF-8 -->
+        <encoding>UTF-8</encoding>
+        
+        <!-- protocol for script and stylesheets -->
+        <!-- defaults to https -->
+        <protocol>HTTPS</protocol>
+        
+        <!-- Offline Report -->
+        <timelineNEnabled>true</timelineNEnabled>
+        
+        <!-- Offline Report -->
+        <enableOfflineMode>false</enableOfflineMode>
+        
+        <!-- use thumbnails for Base64 Images -->
+        <!-- This may slow down viewing Tests -->
+        <thumbnailForBase64>true</thumbnailForBase64>
+        
+        <!-- title of the document -->
+        <documentTitle>PLACE_API</documentTitle>
+        
+        <!-- report name - displayed at top-nav -->
+        <reportName>Regression Testing</reportName>
+            
+        <!-- timeStamp Format -->
+        <timeStampFormat>MM/dd/yyyy hh:mm:ss a</timeStampFormat>
+        
+        <!-- custom javascript -->
+        <scripts>
+            <![CDATA[
+                $(document).ready(function() {
+                    
+                });
+            ]]>
+        </scripts>
+        
+        <!-- custom styles -->
+        <styles>
+            <![CDATA[
+                
+            ]]>
+        </styles>
+    </configuration>
+</extentreports>
