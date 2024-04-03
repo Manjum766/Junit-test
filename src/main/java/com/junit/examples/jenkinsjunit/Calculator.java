@@ -32,10 +32,10 @@ public class Calculator implements ICalculator {
 
 	@Override
 	public boolean equalIntegers(int a, int b) {
-		//boolean result = false;
+		boolean result = true;
 
 		if (a == b) {
-			result = true;
+			result = false;
 		}
 
 		return result;
