@@ -1,7 +1,7 @@
 package com.demo.qa.test;
 
 import java.util.concurrent.TimeUnit;
-import java.util.concurrent.TimeUnit1;
+import java.util.concurrent.TimeUnit;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -9,8 +9,10 @@ import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
-
-
+//adding below lines for sonarqube
+public class BuildJobTest {
+	WebDriver driver;
+	
 public class BuildJobTest {
 	WebDriver driver;
 	
